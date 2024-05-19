@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/configuration"
         android:icon="@drawable/cog"
         android:iconTint="?attr/colorPrimaryFixed"
         android:title="@string/configuration"

@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">AAFramework</string>
+    <string name="app_name">AniversaryAgenda</string>
     <string name="configuration">Configuration</string>
+    <string name="bool_conf_title">Allow Repeated Entries</string>
+    <string name="bool_conf_summary">Allow repeated entries with same name</string>
+    <string name="int_conf_title">Maximum Entries</string>
+    <string name="int_conf_summary">Define the maximum number of entries you can create</string>
+    <string name="list_order_conf_title">Sorting Method</string>
+    <string name="list_order_conf_summary">Select the order of display of the entries</string>
+    <string name="list_date_conf_title">Date Format</string>
+    <string name="list_date_conf_summary">Choose the format of date display</string>
+    <string name="save">SAVE</string>
 </resources>

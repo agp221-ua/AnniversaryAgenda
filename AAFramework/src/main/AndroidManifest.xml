@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
+        android:name="software.galaniberico.moduledroid.subcomponents.kernelconfigurator.ModuleDroidApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -17,6 +18,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NewEntry"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name="software.galaniberico.configurator.activities.ConfigurationActivity"
+            android:exported="true">
+        </activity>
+        <meta-data
+            android:name="moduledroid_plugins"
+            android:value="software.galaniberico.navigator.configuration.NavigatorConfigurator,
+                           software.galaniberico.restorer.configuration.RestorerConfigurator,
+                           software.galaniberico.configurator.configuration.ConfiguratorConfigurator" />
     </application>
 
 </manifest>
